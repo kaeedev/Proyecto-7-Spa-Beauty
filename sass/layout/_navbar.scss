@@ -1,0 +1,30 @@
+nav.nav_primary {
+    ul {
+        @include reset-list;
+        gap: 56px;
+        a {
+            color: $dark-blue;
+            font-weight: 300;
+            text-decoration: none;
+            font-family: "Poppins";
+            &:hover{
+                text-decoration: underline;
+                color: $dark-blue;
+            }
+        }
+    }
+}
+
+.header_login{
+    ul {
+        gap: 56px;
+        @include reset-list;
+        a {
+            color: $grey;
+            font-weight: 300;
+            text-decoration: none;
+            font-family: "Poppins";
+            
+        }
+    }
+}

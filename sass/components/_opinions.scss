@@ -1,0 +1,48 @@
+.opinion {
+    &_item-1{
+        position: absolute;
+        top: 30%;
+        left: 76%;
+        width: 350px;
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(16px);
+        padding: 24px;
+        margin-bottom: 60px;
+        &-description{
+            font-size: 18px;
+            font-family: "Poppins";
+            color: $black;
+        }
+        &-author{
+            color: $dark-blue;
+            font-weight: 700;
+            font-family: "Poppins";
+            font-size: 20px;
+        }
+    }
+        &_item-2{
+            position: absolute;
+            top: 65%;
+            left: 69%;
+            width: 350px;
+            border-radius: 16px;
+            background-color: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(16px);
+            padding: 24px;
+            font-size: 18px;
+            color: $black;
+            font-family: "Poppins";
+            &-description{
+                font-size: 18px;
+                font-family: "Poppins";
+                color: $black;
+            }
+            &-author{
+                color: $dark-blue;
+                font-weight: 700;
+                font-family: "Poppins";
+                font-size: 20px;
+            }
+    }
+}
